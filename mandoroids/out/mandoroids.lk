@@ -1,0 +1,12 @@
+-mjwx
+-i C:\MSXgl-main\MSXgl-main\projects\mandoroids/out/mandoroids.ihx
+-b _CODE = 0x4000
+-b _DATA = 0xc000
+-k C:\MSXgl-main\MSXgl-main\tools/sdcc/lib/z80
+-k C:\MSXgl-main\MSXgl-main\tools/sdcc/bin\..\lib\z80
+-l C:\MSXgl-main\MSXgl-main\projects\mandoroids/out/msxgl.lib
+-l z80
+C:\MSXgl-main\MSXgl-main\projects\mandoroids/out/crt0_rom32.rel
+C:\MSXgl-main\MSXgl-main\projects\mandoroids/out/mandoroids.rel
+
+-e
